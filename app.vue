@@ -1,5 +1,10 @@
+<script lang="ts" setup></script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    map
+    <ClientOnly>
+      <LazyAppLeaflet></LazyAppLeaflet>
+    </ClientOnly>
   </div>
 </template>
