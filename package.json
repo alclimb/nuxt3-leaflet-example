@@ -1,4 +1,5 @@
 {
+  "name": "nuxt3-leaflet-example",
   "private": true,
   "scripts": {
     "build": "nuxt build",
